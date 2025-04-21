@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+
+# Mac OS
+.DS_Store
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+
+# Ignore Natural Earth shapefiles
+data/maps/
+
+# Large/raw data
+data/raw/train.csv
+
+# Temporary mock/test data
+data/raw/mock_*.csv
+data/processed/mock_*.csv
+
+# Intermediate outputs
+data/processed/
+models/
+outputs/
+*.joblib
+*.npy
+*.png
